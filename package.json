@@ -1,0 +1,29 @@
+{
+  "name": "img-upload",
+  "version": "0.1.0",
+  "description": "simple image upload demo",
+  "author": "Even Alander <even@alander.org>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "parcel": "^1.12.3",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "multer": "^1.4.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "server": "node server.js"
+  }
+}
